@@ -1,19 +1,16 @@
-#include "main.h"
-
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
- * main - print _putchar
+ * main - Entry point
  *
- * Return: zero
+ * Return: Always 0 (success)
  */
+
 int main(void)
 {
-	char *main = "_putchar";
 
-	while (*main)
-	{
-		_putchar(*main);
-		main++;
-	}
-	_putchar('\n');
-	return (0);
+printf("_putchar\n");
+
+return (0);
 }
